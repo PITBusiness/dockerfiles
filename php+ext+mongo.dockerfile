@@ -1,5 +1,5 @@
 FROM php:7.1-fpm
-MAINTAINER Jérémie Tabet <dev@jeremie.tabet.rocks>
+MAINTAINER PIT Business <info@pit-business.com>
 
 RUN apt-get update && apt-get install -y zlib1g-dev libicu-dev g++ libssl-dev
 
