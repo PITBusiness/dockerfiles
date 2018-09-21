@@ -1,7 +1,7 @@
 FROM php:7.1-fpm
 MAINTAINER PIT Business <info@pit-business.com>
 
-RUN apt-get update && apt-get install -y zlib1g-dev libicu-dev g++ libssl-dev apt-transport-https gnupg
+RUN apt-get update && apt-get install -y zlib1g-dev libicu-dev g++ libssl-dev apt-transport-https gnupg libpng-dev
 
 # Add Microsoft repo for Microsoft ODBC Driver 13 for Linux
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
