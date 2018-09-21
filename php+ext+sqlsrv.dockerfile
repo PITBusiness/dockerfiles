@@ -29,5 +29,6 @@ RUN pecl install apcu-5.1.5 pdo_sqlsrv-4.3.0 sqlsrv-4.3.0 && \
         pdo_mysql \
         zip \
         bcmath \
-        opcache
+        opcache \
+        gd
 
